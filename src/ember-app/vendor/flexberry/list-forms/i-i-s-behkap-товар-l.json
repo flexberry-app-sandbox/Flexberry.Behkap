@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-behkap-товар-e",
+  "editForm": "i-i-s-behkap-товар-e",
+  "external": false,
+  "caption": "Товар",
+  "name": "IISBehkapТоварL",
+  "className": "ТоварL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-behkap-товар",
+      "modelProjection": "ТоварL"
+    }
+  ]
+}

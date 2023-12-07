@@ -1,0 +1,131 @@
+﻿{
+  "name": "IISBehkapУслуга",
+  "modelName": "i-i-s-behkap-услуга",
+  "className": "Услуга",
+  "nameSpace": "IIS.Behkap",
+  "parentModelName": null,
+  "parentClassName": null,
+  "attrs": [
+    {
+      "name": "длительность",
+      "type": "date",
+      "flexberryType": "DateTime",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    },
+    {
+      "name": "у",
+      "type": "number",
+      "flexberryType": "int",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    },
+    {
+      "name": "услуга",
+      "type": "string",
+      "flexberryType": "string",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    },
+    {
+      "name": "цена",
+      "type": "number",
+      "flexberryType": "int",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    }
+  ],
+  "belongsTo": [],
+  "hasMany": [
+    {
+      "name": "составУслуги",
+      "relatedTo": "i-i-s-behkap-состав-услуги",
+      "inverse": "услуга"
+    }
+  ],
+  "projections": [
+    {
+      "name": "УслугаE",
+      "modelName": "i-i-s-behkap-услуга",
+      "attrs": [
+        {
+          "name": "у",
+          "caption": "У",
+          "hidden": false,
+          "index": 0
+        },
+        {
+          "name": "услуга",
+          "caption": "Услуга",
+          "hidden": false,
+          "index": 1
+        },
+        {
+          "name": "цена",
+          "caption": "Цена",
+          "hidden": false,
+          "index": 2
+        },
+        {
+          "name": "длительность",
+          "caption": "Длительность",
+          "hidden": false,
+          "index": 3
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": [
+        {
+          "projectionName": "СоставУслугиE",
+          "caption": "Состав услуги",
+          "name": "составУслуги",
+          "relatedTo": "i-i-s-behkap-состав-услуги",
+          "inverse": null
+        }
+      ]
+    },
+    {
+      "name": "УслугаL",
+      "modelName": "i-i-s-behkap-услуга",
+      "attrs": [
+        {
+          "name": "у",
+          "caption": "У",
+          "hidden": false,
+          "index": 0
+        },
+        {
+          "name": "услуга",
+          "caption": "Услуга",
+          "hidden": false,
+          "index": 1
+        },
+        {
+          "name": "цена",
+          "caption": "Цена",
+          "hidden": false,
+          "index": 2
+        },
+        {
+          "name": "длительность",
+          "caption": "Длительность",
+          "hidden": false,
+          "index": 3
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": []
+    }
+  ],
+  "stored": true,
+  "offline": true,
+  "external": false
+}

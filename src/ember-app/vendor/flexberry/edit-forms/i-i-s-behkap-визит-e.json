@@ -1,0 +1,39 @@
+﻿{
+  "propertyLookup": [
+    {
+      "master": null,
+      "displayAttributeName": null,
+      "required": false,
+      "relationName": "Клиент",
+      "projection": "КлиентL",
+      "detailModelName": null
+    },
+    {
+      "master": "услуга",
+      "displayAttributeName": "услуга",
+      "required": true,
+      "relationName": "ЗаписьВизита.Услуга",
+      "projection": "УслугаL",
+      "detailModelName": "i-i-s-behkap-запись-визита"
+    },
+    {
+      "master": "сотрудник",
+      "displayAttributeName": "фИО",
+      "required": true,
+      "relationName": "ЗаписьВизита.сотрудник",
+      "projection": "сотрудникL",
+      "detailModelName": "i-i-s-behkap-запись-визита"
+    }
+  ],
+  "external": false,
+  "caption": "Визит",
+  "name": "IISBehkapВизитE",
+  "className": "ВизитE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-behkap-визит",
+      "modelProjection": "ВизитE"
+    }
+  ]
+}

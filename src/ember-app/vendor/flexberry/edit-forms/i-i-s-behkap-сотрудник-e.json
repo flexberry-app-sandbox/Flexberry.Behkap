@@ -1,0 +1,23 @@
+﻿{
+  "propertyLookup": [
+    {
+      "master": null,
+      "displayAttributeName": null,
+      "required": false,
+      "relationName": "Должности",
+      "projection": "ДолжностиL",
+      "detailModelName": null
+    }
+  ],
+  "external": false,
+  "caption": "Сотрудник",
+  "name": "IISBehkapсотрудникE",
+  "className": "сотрудникE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-behkap-сотрудник",
+      "modelProjection": "сотрудникE"
+    }
+  ]
+}

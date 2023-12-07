@@ -1,0 +1,87 @@
+﻿{
+  "applicationCaption": "Behkap",
+  "applicationTitle": "Behkap",
+  "items": [
+    {
+      "link": null,
+      "menuName": "behkap",
+      "caption": "Behkap",
+      "title": "Behkap",
+      "children": [
+        {
+          "link": "i-i-s-behkap-услуга-l",
+          "menuName": null,
+          "caption": "Услуга",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-behkap-визит-l",
+          "menuName": null,
+          "caption": "Визит",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-behkap-товар-l",
+          "menuName": null,
+          "caption": "Товар",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-behkap-должности-l",
+          "menuName": null,
+          "caption": "Должности",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-behkap-сотрудник-l",
+          "menuName": null,
+          "caption": "Сотрудник",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-behkap-клиент-l",
+          "menuName": null,
+          "caption": "Клиент",
+          "title": "",
+          "children": null
+        }
+      ]
+    },
+    {
+      "link": null,
+      "menuName": "справочник-клиентов",
+      "caption": "Справочник клиентов",
+      "title": "Справочник клиентов",
+      "children": [
+        {
+          "link": "i-i-s-behkap-клиент-l",
+          "menuName": null,
+          "caption": "Клиент",
+          "title": "Клиент",
+          "children": null
+        }
+      ]
+    },
+    {
+      "link": null,
+      "menuName": "услуги",
+      "caption": "Услуги",
+      "title": "Услуги",
+      "children": [
+        {
+          "link": "i-i-s-behkap-услуга-l",
+          "menuName": null,
+          "caption": "Услуга",
+          "title": "Услуга",
+          "children": null
+        }
+      ]
+    }
+  ],
+  "mobile": true
+}

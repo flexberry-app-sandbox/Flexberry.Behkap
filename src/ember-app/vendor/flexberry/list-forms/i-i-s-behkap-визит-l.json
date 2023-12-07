@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-behkap-визит-e",
+  "editForm": "i-i-s-behkap-визит-e",
+  "external": false,
+  "caption": "Визит",
+  "name": "IISBehkapВизитL",
+  "className": "ВизитL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-behkap-визит",
+      "modelProjection": "ВизитL"
+    }
+  ]
+}

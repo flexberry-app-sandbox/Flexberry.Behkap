@@ -1,0 +1,8 @@
+﻿{
+  "nameSpace": "IIS.Behkap",
+  "className": "Пол",
+  "enumObjects": {
+    "Мужской": "Мужской",
+    "Женский": "Женский"
+  }
+}

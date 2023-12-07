@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-behkap-клиент-e",
+  "editForm": "i-i-s-behkap-клиент-e",
+  "external": false,
+  "caption": "Клиент",
+  "name": "IISBehkapКлиентL",
+  "className": "КлиентL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-behkap-клиент",
+      "modelProjection": "КлиентL"
+    }
+  ]
+}
